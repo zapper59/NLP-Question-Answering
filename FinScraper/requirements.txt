@@ -1,3 +1,4 @@
 beautifulsoup4
 BeautifulSoup4
 requests
+html5lib
