@@ -21,7 +21,7 @@ Daenerys Targaryen
 Daenys Targaryen
 Daeron I Targaryen
 Daeron II Targaryen
-Daeron Targaryen
+Daeron Targaryen (son of Aegon V)
 Dalton Greyjoy
 Damon Lannister
 Derwa Frey
@@ -177,7 +177,7 @@ Viserys I Targaryen
 Viserys II Targaryen
 Viserys Targaryen
 Walda Bolton
-Walda Frey
+Walda Frey (The Rains of Castamere)
 Walder Frey
 Walder Rivers
 Waldra Frey
@@ -204,7 +204,7 @@ Aegon I Targaryen
 Aegon II Targaryen
 Aegon III Targaryen
 Aegon IV Targaryen
-Aegon Targaryen
+Aegon Targaryen (son of Rhaegar and Elia)
 Aegon V Targaryen
 Aegor Rivers
 Aelinor Targaryen
