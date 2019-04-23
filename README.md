@@ -15,6 +15,7 @@ data sets. Each file follows the following standard:
 - All nonempty lines up until the first empty line reference the first context
   paragraph. After a new line, all nonempty lines up until the second empty line reference
   the second context, and so on.
+- Last line must be an empty line
 
 The format_data.py script will take the data in qa_data and format the data so
 that the BERT script from huggingface will accept it. This format is how SQuAD
