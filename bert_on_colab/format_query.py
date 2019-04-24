@@ -7,6 +7,7 @@ parser.add_argument("query", help="query to use")
 args = parser.parse_args()
 
 def extract_cap_words(s):
+    s = s[:-1]
     ss = s.split()
     ignore = ['Who', 'What', 'When', 'Where']
     ans = [w for w in ss if w[0].isupper() and w not in ignore]
@@ -14,7 +15,7 @@ def extract_cap_words(s):
 
 if __name__ == '__main__':
     # open characters.json
-    with open('FinScraper/characters.json', 'r') as f:
+    with open('../FinScraper/characters.json', 'r') as f:
         wiki = json.load(f)
 
     lw = extract_cap_words(args.query)

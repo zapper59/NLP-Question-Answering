@@ -67,14 +67,14 @@ def format_data(files, name_idxr, characters, path):
 
 if __name__ == '__main__':
     # get data for all characters here
-    with open('FinScraper/characters.json', 'r') as f:
+    with open('../FinScraper/characters.json', 'r') as f:
         wiki = json.load(f)
 
     # get mappings from character name to index into JSON list
-    with open('FinScraper/name_indexer.json', 'r') as g:
+    with open('../FinScraper/name_indexer.json', 'r') as g:
         name_indexer = json.load(g)
 
-    train_path = 'qa_data/training/'
+    train_path = '../qa_data/training/'
     train_files = os.listdir(train_path)
     # print(train_files)
     train_out = format_data(train_files, name_indexer, wiki, train_path)
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     with open('training.json', 'w') as f:
         json.dump(train_out, f)
 
-    test_path = 'qa_data/testing/'
+    test_path = '../qa_data/testing/'
     test_files = os.listdir(test_path)
     # print(test_files)
     test_out = format_data(test_files, name_indexer, wiki, test_path)
