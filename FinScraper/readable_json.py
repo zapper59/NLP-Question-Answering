@@ -11,8 +11,8 @@ with open('name_indexer.json', 'r') as f:
 
 idx = idxr[args.name]
 
-#with open('characters.json', 'r') as f:
-with open('characters_meta.json', 'r') as f:
+with open('characters.json', 'r') as f:
+# with open('characters_meta.json', 'r') as f:
     wiki = json.load(f)
 
 pprint(wiki[idx])

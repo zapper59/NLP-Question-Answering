@@ -1,15 +1,13 @@
 Where does Sansa take back Winterfell from, alongside Jon Snow?
 House Bolton
 1
-
 At which Battle does Sansa take back Winterfell?
 Battle of the Bastards
 1
 
 Where was Sansa born and raised?
 Winterfell
-4
-
+1
 What did Sansa dream of being when she was young?
 Queen
 1
@@ -21,9 +19,16 @@ Septa Mordane
 What is the name of Sansa's direwolf pup?
 Lady
 1
-
 Who does King Robert offer to betroth to Sansa?
 Joffrey
+1
+
+Who orders Arya's direwolf Nymeria to be executed?
+Cersei
+1
+
+Who buys Sansa a doll?
+Eddard
 1
 
 Who does Sansa witness Ser Gregor Clegan killing at the Hand's tournament?
@@ -34,15 +39,31 @@ What does Joffrey give to Sansa when he visits her?
 pendant
 1
 
+Who betrays Eddard, kills his guards and arrests him?
+Littlefinger
+1
+
+What is the name of the Stark family's greatsword?
+Ice
+1
+
+Who orders the removal of Marillion's tongue?
+Joffrey
+1
+
 Who does Joffrey order to strike Sansa?
 Ser Meryn Trant
 1
 
 Who does Sansa remain a captive of in King's Landing?
 Cersei Lannister
-7
+1
+
+Who offers to end Sansa's engagement with Joffrey?
+Tyrion
+1
 
 Who is Sansa rescued by?
 Sandor Clegane
-7
+1
 
