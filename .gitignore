@@ -1,3 +1,6 @@
 **/env
 **/venv
 __pycache__
+**/query.json
+**/training.json
+**/testing.json
