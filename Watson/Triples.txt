@@ -1,0 +1,5 @@
+[('Who', 'is', 'Ned’s wife'), ('Who', 'is', '?')]
+[('Who', 'is', 'Rhaegar’s father'), ('Who', 'is', '?')]
+[('Who', 'is', 'the child'), ('Who', 'is', '?')]
+[('Who', 'is', 'Arya’s'), ('Who', 'is', 'brother'), ('Who', 'is', '?')]
+[('Who', 'is', 'the daughter'), ('Who', 'is', '?')]
