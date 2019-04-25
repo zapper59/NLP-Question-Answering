@@ -15,7 +15,7 @@ def extract_cap_words(s):
 
 if __name__ == '__main__':
     # open characters.json
-    with open('../FinScraper/characters.json', 'r') as f:
+    with open(format_data.format_path('../FinScraper/characters.json'), 'r') as f:
         wiki = json.load(f)
 
     lw = extract_cap_words(args.query)
@@ -35,5 +35,5 @@ if __name__ == '__main__':
             out['data'].append({'title': character['name'], 'paragraphs': paras})
 
     # write resulting json to file "query.json"
-    with open('query.json', 'w') as f:
+    with open(format_data.format_path('query.json'), 'w') as f:
         json.dump(out, f)
