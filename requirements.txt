@@ -1,2 +1,3 @@
 textacy
 spacy
+thesaurus

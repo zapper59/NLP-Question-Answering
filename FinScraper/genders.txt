@@ -1,0 +1,220 @@
+Cersei Lannister True 394 812
+Baelor Targaryen False 76 4
+Balon Greyjoy False 190 24
+Baratheon (son of Robert) True 13 23
+Benjen Stark False 93 1
+Borros Baratheon False 29 2
+Bran Stark False 373 50
+Brandon Snow False 6 0
+Brandon Stark False 373 50
+Brynden Rivers False 54 7
+Brynden Tully False 151 9
+Cassana Baratheon True 3 8
+Catelyn Stark True 222 285
+Ceryse Hightower False 16 14
+Cregan Stark False 34 1
+Cynda Lannister False 12 3
+Daemon I Blackfyre False 60 1
+Daemon Targaryen False 87 18
+Daena Targaryen False 20 16
+Daenerys Targaryen True 377 788
+Daenys Targaryen True 5 10
+Daeron I Targaryen False 38 0
+Daeron II Targaryen False 51 1
+Daeron Targaryen (son of Aegon V) False 10 9
+Dalton Greyjoy False 29 2
+Damon Lannister False 9 3
+Derwa Frey False 4 0
+Doran Martell False 186 49
+Dorea Sand True 2 8
+Dorna Lannister True 5 13
+Dorren Stark False 1 0
+Duncan Targaryen False 30 3
+Dyanna Dayne False 9 5
+Eddard Stark False 356 76
+Edmure Tully False 202 6
+Edmyn Tully False 4 0
+Edric Baratheon False 4 1
+Elaena Targaryen True 4 31
+Elbert Arryn True 0 1
+Elia Martell False 86 49
+Elia Sand True 8 20
+Ellyn Reyne True 10 25
+Ethelide Baratheon True 0 2
+Euron Greyjoy False 308 45
+Frey False 47 18
+Freya Frey False 3 0
+Gendry False 260 66
+Gerold Lannister False 3 0
+Grey King False 16 0
+Helaena Targaryen True 21 63
+Hoster Tully False 42 14
+Hugh Hammer False 2 0
+Jacaerys Velaryon False 19 2
+Jaehaera Targaryen True 14 41
+Jaehaerys I Targaryen False 77 26
+Jaehaerys Targaryen False 15 11
+Jaime Lannister False 999 266
+Janeya Frey False 3 0
+Jason Lannister False 2 0
+Jeyne Arryn True 11 18
+Jeyne Lannister True 4 7
+Joanna Lannister False 62 31
+Joffrey Velaryon False 26 6
+Johanna Lannister False 3 1
+Jon Arryn False 71 12
+Jon Snow False 892 197
+Jon Stark False 1 0
+Jorah Mormont False 404 230
+Joyeuse Frey False 11 8
+Karlon Stark False 2 0
+Kevan Lannister False 130 46
+Kitty Frey False 21 12
+Laenor Velaryon False 9 1
+Lancel Lannister False 209 47
+Lann False 20 0
+Lewyn Martell False 19 0
+Loras Tyrell False 304 50
+Loren I Lannister False 4 0
+Loreza Sand True 2 7
+Lothar Frey False 49 11
+Lucerys Velaryon False 52 8
+Luthor Tyrell False 17 11
+Lyanna Stark True 107 110
+Lyman Lannister False 33 3
+Lynesse Hightower False 15 10
+Lyonel Baratheon False 22 0
+Lysa Arryn True 49 168
+Mace Tyrell False 102 20
+Maegor III Targaryen False 0 0
+Maegor Targaryen False 163 19
+Maekar Targaryen False 21 0
+Maelor Targaryen False 17 12
+Margaery Tyrell True 107 308
+Marianne Frey False 4 2
+Maron Greyjoy False 19 2
+Maron Martell False 4 0
+Martell False 44 26
+Martyn Lannister False 9 0
+Meria Martell True 6 10
+Merry Frey False 10 10
+Minisa Tully True 0 7
+Monica Baratheon True 1 2
+Mors Martell False 4 1
+Mychal Baratheon False 4 0
+Myriah Martell True 0 3
+Naerys Targaryen True 1 21
+Nettles True 17 35
+Neyela Frey False 3 0
+Nymeria True 5 24
+Nymeria Sand True 22 86
+Nymor Martell False 8 2
+Obara Sand True 48 138
+Obella Sand True 2 5
+Oberyn Martell False 247 29
+Olenna Tyrell True 85 294
+Olyvar Frey False 12 1
+Brandon Stark False 373 50
+Ormund Baratheon False 12 0
+Orson Lannister False 41 0
+Orys Baratheon False 24 1
+Osric Stark False 4 0
+Petyr Baratheon False 3 1
+Raymont Baratheon False 7 0
+Reginald Lannister False 18 1
+Renly Baratheon False 308 89
+Rhaegar Targaryen False 255 74
+Rhaegel Targaryen False 14 4
+Rhaego False 29 27
+Rhaella Targaryen False 38 23
+Rhaena Targaryen True 1 10
+Rhaenyra Targaryen True 42 104
+Rhaenys Targaryen True 17 31
+Rickard Stark False 54 17
+Rickard Stark (King) False 8 0
+Rickon Stark False 112 11
+Robb Stark False 482 99
+Robert Baratheon False 248 54
+Robin Arryn False 134 28
+Rodrik Greyjoy False 22 2
+Rodrik Stark False 1 0
+Ronnel Arryn (King) False 14 8
+Roslin Tully True 18 28
+Ryger Rivers False 7 1
+Sansa Stark True 433 690
+Sarella Sand True 11 17
+Sarra Frey False 5 2
+Selyse Baratheon True 35 80
+Serra Frey False 4 2
+Shiera Seastar True 9 24
+Shireen Baratheon True 112 144
+Shirei Frey False 4 4
+Stafford Lannister False 20 3
+Stannis Baratheon False 547 107
+Steffon Baratheon False 19 0
+Stevron Frey False 33 1
+Talisa Stark True 51 79
+Theon Greyjoy False 739 110
+Theon Stark False 15 0
+Theresa Baratheon True 0 1
+Tion Lannister False 13 4
+Tommard Baratheon False 3 1
+Tommen II Lannister False 12 0
+Torrhen Stark False 18 3
+Trystane Martell False 72 14
+Tully (son of Edmure) False 26 7
+Tyene Sand True 49 121
+Tyland Lannister False 18 9
+Tyrell lady True 4 10
+Tyrion Lannister False 969 277
+Tytos Lannister False 45 32
+Tywald Lannister False 11 0
+Tywin Lannister False 534 102
+Ulf the White False 2 1
+Vickon Greyjoy False 5 0
+Visenya Targaryen True 19 28
+Viserys I Targaryen False 57 5
+Viserys II Targaryen False 26 5
+Viserys Targaryen False 160 54
+Walda Bolton True 37 48
+Walda Frey (The Rains of Castamere) False 3 0
+Walder Frey False 156 18
+Walder Rivers False 65 16
+Waldra Frey False 4 0
+Waldron Frey False 9 2
+Willem Frey False 9 0
+Willem Lannister False 7 0
+Yara Greyjoy True 150 205
+Alannys Greyjoy True 8 32
+Alerie Tyrell True 1 27
+Alester Tyrell False 2 0
+Alicent Hightower True 27 35
+Allana Tyrell True 0 7
+Alton Lannister False 92 6
+Alys Harroway True 7 15
+Alysanne Targaryen True 24 31
+Argella Baratheon True 29 33
+Artys Arryn False 14 0
+Arwaya Frey False 3 2
+Arya Stark True 400 954
+Axel Baratheon False 3 0
+Axel Tully False 3 0
+Addam Velaryon False 17 2
+Aegon I Targaryen False 95 9
+Aegon II Targaryen False 75 26
+Aegon III Targaryen False 52 4
+Aegon IV Targaryen False 32 2
+Aegon Targaryen (son of Rhaegar and Elia) False 36 12
+Aegon V Targaryen False 82 1
+Aegor Rivers False 24 5
+Aelinor Targaryen True 0 3
+Aemma Arryn True 6 11
+Aemon False 213 4
+Aemon Targaryen False 213 4
+Aemond Targaryen False 95 9
+Aenar Targaryen False 18 1
+Aenys Targaryen False 103 10
+Aerion Targaryen False 35 0
+Aeron Greyjoy False 92 9
+Aerys I Targaryen False 30 1
+Aerys II Targaryen False 239 43
