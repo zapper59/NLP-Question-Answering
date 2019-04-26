@@ -1,3 +1,5 @@
 textacy
 spacy
 thesaurus
+fuzzywuzzy[speedup]
+neo4j
