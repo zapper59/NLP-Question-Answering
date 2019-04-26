@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     lw = extract_cap_words(args.query)
 
-    # append query to every context of every character
+    # append query to related contexts of every character
     out = {'data': []}
     qc = 1
     for character in wiki:
