@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import re
 from pprint import pprint
 
 class QA(object):
