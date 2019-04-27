@@ -14,7 +14,7 @@ from spacy.symbols import root
 
 # nlp = spacy.load('en_core_web_lg')
 nlp = spacy.load("en")
-coref = spacy.load('en_coref_md')
+# coref = spacy.load('en_coref_md')
 
 #%%
 def valid_triple(left, right):
@@ -62,33 +62,33 @@ def gather_triples(docs):
     return triples
 
     def gather_triples(docs):
-    triples = []
+        triples = []
 
-    for chunk in docs.noun_chunks:
-        chunk.merge()
-    
-    for ent in docs.ents:
-        ent.merge()
+        for chunk in docs.noun_chunks:
+            chunk.merge()
+        
+        for ent in docs.ents:
+            ent.merge()
 
-    incomplete_tags = set(['IN', 'DET'])
+        incomplete_tags = set(['IN', 'DET'])
 
-    for sent in docs.sents:
-        vrbs = [w for w in sent if w.pos_ == 'VERB']
+        for sent in docs.sents:
+            vrbs = [w for w in sent if w.pos_ == 'VERB']
 
-        for verb in vrbs:
-            for l in verb.lefts:
-                # so prepositions aren't good in triples
-                # look at the prepositions children
-                left = list(l.children)
-                left = left[0] if left and l.tag_ in incomplete_tags else l
+            for verb in vrbs:
+                for l in verb.lefts:
+                    # so prepositions aren't good in triples
+                    # look at the prepositions children
+                    left = list(l.children)
+                    left = left[0] if left and l.tag_ in incomplete_tags else l
 
-                for r in verb.rights:
-                    right = list(r.children)
-                    right = right[0] if right and r.tag_ in incomplete_tags else r
+                    for r in verb.rights:
+                        right = list(r.children)
+                        right = right[0] if right and r.tag_ in incomplete_tags else r
 
-                    if valid_triple(left, right):
-                        triples.append((left.text, verb.text, right.text))
-    return triples
+                        if valid_triple(left, right):
+                            triples.append((left.text, verb.text, right.text))
+        return triples
 
 def resolve_prnn(json):
     for subsection, subsection_txt in json.items():
@@ -128,6 +128,9 @@ output_file = "Triples.txt"
 with open(text_file, 'r') as fi_r:
     with open(output_file, 'w') as fi_w:
         for line in fi_r:
-            text = nlp(line)
-            triples = gather_triples(text)
+            doc = nlp(line)
+            triples = []
+            for token in doc:
+                cur_word = (token.text, token.tag_, token.dep_)
+                triples.append(cur_word)
             fi_w.write(str(triples) + "\n")

@@ -14,6 +14,15 @@ data = []
 def has_class_but_no_id(tag):
         return tag.has_attr('class') and not tag.has_attr('id')
 
+def element_tostring(element):
+    text = ''
+    for elem in element.recursiveChildGenerator():
+        if isinstance(elem, str):
+            text += elem.strip()+' '
+        elif elem.name == 'br':
+            text += '\n'
+    return text
+
 with open("names.txt") as f:
 
     for name in f:
@@ -30,7 +39,8 @@ with open("names.txt") as f:
         #print(text.encode('utf-8'))
         paras=[]
         
-        if True: #TODO
+        #if True: #TODO
+        if False: #TODO
             for para in text('p', recursive=False):
                 para_t=""
                 print("*****")
@@ -55,14 +65,18 @@ with open("names.txt") as f:
         }
         
         print("$$$$$")
-        if False: #TODO
+        #if False: #TODO
+        if True: #TODO
             for key in text.find('aside', class_='portable-infobox').find_all('h3'):
                 key_text = ' '.join([s for s in key.stripped_strings])
-                print(key_text)
+                print("###", key_text)
                 value_div = key.parent.find('div', class_='pi-data-value', recursive=False)
                 #for s in value_div.strings:
                     #print("###", s)
-                val_text = ' '.join([s for s in value_div.stripped_strings])
+                #for s in value_div.recursiveChildGenerator():
+                #    print("***", type(s), s)
+                #val_text = ' '.join([s for s in value_div.strings])
+                val_text = element_tostring(value_div)
                 val_text = re.sub(r" ,", ",", val_text)
                 val_text = re.sub(r" \.", ".", val_text)
                 print(val_text)
@@ -71,8 +85,8 @@ with open("names.txt") as f:
         data.append(person)
         #exit()
 
-    #with open('characters_meta.json','w') as outfile:
-    with open('characters.json','w') as outfile:
+    with open('characters_meta.json','w') as outfile:
+    #with open('characters.json','w') as outfile:
         json.dump(data, outfile)
 
         #exit()
