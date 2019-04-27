@@ -6,19 +6,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument("query", help="query to use")
 args = parser.parse_args()
 
-def extract_cap_words(s):
-    s = s[:-1]
-    ss = s.split()
-    ignore = ['Who', 'What', 'When', 'Where', 'At', 'In', 'Of']
-    ans = [w for w in ss if w[0].isupper() and w not in ignore]
-    return ans
-
 if __name__ == '__main__':
     # open characters.json
     with open(format_data.format_path('../FinScraper/characters.json'), 'r') as f:
         wiki = json.load(f)
-
-    lw = extract_cap_words(args.query)
 
     # append query to related contexts of every character
     out = {'data': []}
@@ -26,7 +17,7 @@ if __name__ == '__main__':
     for character in wiki:
         paras = []
         for c in character['paragraphs']:
-            if all(cw in c['context'] for cw in lw):
+            if format_data.related_heuristic(args.query, c['context']):
                 # create query with a real question, but fake others
                 query = format_data.QA(qc, args.query, '', 0)
                 paras.append({'context': c['context'], 'qas': [query.to_dict()]})
