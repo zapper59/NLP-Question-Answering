@@ -101,6 +101,10 @@ Definitions:
 def format_name(name):
     return '_'.join(name.lower().split())
 
+def sanitize_word(s):
+    s = re.sub(r'\'s', '', s)
+    return s
+
 def related_heuristic(q, context):
     '''
     q: question string
@@ -110,7 +114,7 @@ def related_heuristic(q, context):
     q = q[:-1]
     q_words = q.split()
     ignore = ['Who', 'What', 'When', 'Where', 'At', 'In', 'Of']
-    cap_words = [w for w in q_words if w[0].isupper() and w not in ignore]
+    cap_words = [sanitize_word(w) for w in q_words if w[0].isupper() and w not in ignore]
     return all(w in context for w in cap_words)
 
 def get_related_contexts(k, q, q_name, q_idx, characters):
