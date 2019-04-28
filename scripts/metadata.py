@@ -91,3 +91,4 @@ if __name__ == '__main__':
     print(find_best_name_match("the lord of casterly rock"))
     print(remove_relations("Who is The mother of dragons?"))
     print(remove_relations("Who is The mother of dragons' mother?"))
+    print(find_best_name_match("Who is the daughter of Lady Catlyn and Lord Eddard?"))

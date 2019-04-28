@@ -18,19 +18,23 @@ relations=["sibling", "child", "parent", "spouse", "uncle", "cousin", "in-law", 
 #maps from relation to basic relation.  If val[1] is defined it represents is_female on filtering returned values
 #there are some repeats here, so search on more_relations before basic relations
 more_relations={
-        "brother": ["sibling", False],
-        "sister":  ["sibling", True],
-        "son":     ["child", False],
-        "daughter":["child", True],
-        "father":  ["parent", False],
-        "mother":  ["parent", True],
-        "husband": ["spouse", False],
-        "wife":    ["spouse", True],
-        "uncle":   ["uncle", False],
-        "aunt":    ["uncle", True],
-        "nephew":  ["nephew", False],
-        "niece":   ["nephew", True],
+        "brother":     ["sibling", False],
+        "sister":      ["sibling", True],
+        "son":         ["child", False],
+        "daughter":    ["child", True],
+        "father":      ["parent", False],
+        "mother":      ["parent", True],
+        "husband":     ["spouse", False],
+        "wife":        ["spouse", True],
+        "uncle":       ["uncle", False],
+        "aunt":        ["uncle", True],
+        "nephew":      ["nephew", False],
+        "niece":       ["nephew", True],
+        "grandfather": ["grandparent", False],
+        "grandmother": ["grandparent", True]
 }
+
+relation_regex='|'.join(relations)+'|'+'|'.join(more_relations)
 
 def is_relation_supported(relation):
     return relation in relations or relation in more_relations
