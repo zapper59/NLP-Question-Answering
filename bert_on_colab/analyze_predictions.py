@@ -25,8 +25,11 @@ for i in preds:
             m[ans] = score
 
 topm = sorted(m.items(), key=operator.itemgetter(1), reverse=True)
-print(topm[0:3])
-print(freq.most_common(3))
 
-# with open('predictions.txt', 'a') as f:
-#     f.write(freq.most_common(1)[0][0] + '\n')
+with open('predictions.txt', 'a') as f:
+    if topm:
+        candidate = topm[0]
+        f.write(candidate[0] + '\n')
+    else:
+        # no answer
+        f.write('\n')
