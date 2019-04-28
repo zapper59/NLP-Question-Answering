@@ -19,4 +19,4 @@ for i in preds:
         freq[ans] += 1
 
 with open('predictions.txt', 'a') as f:
-    f.write(freq.most_common(1)[0][0])
+    f.write(freq.most_common(1)[0][0] + '\n')
