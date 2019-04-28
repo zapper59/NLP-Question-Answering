@@ -24,7 +24,7 @@ for i in preds:
         else:
             m[ans] = score
 
-topm = sorted(maxscores.items(), key=operator.itemgetter(1), reverse=True)
+topm = sorted(m.items(), key=operator.itemgetter(1), reverse=True)
 print(topm[0:3])
 print(freq.most_common(3))
 
