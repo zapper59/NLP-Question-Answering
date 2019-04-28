@@ -60,6 +60,7 @@ def get_relatives(names, relation):
         rel_type="-[:IS_SIBLING_OF]-"
     elif relation == "child":
         names=get_relatives(names,"spouse").union(names) #ex: robin arryn
+        print("Finding child of both:", names)
         rel_type="<-[:IS_CHILD_OF]-"
     elif relation == "parent":
         rel_type="-[:IS_CHILD_OF]->"
@@ -132,3 +133,4 @@ if __name__ == '__main__':
 
     print("**** ", resolve_relation(["Arya Stark"], "brother"))
     print("**** ", resolve_relation(["Arya Stark"], "sister"))
+    print("**** ", resolve_relation(["Eddard Stark"], "daughter"))
