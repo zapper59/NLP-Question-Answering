@@ -25,21 +25,25 @@ def process_question(q):
         print(char, "||", relation, "||", names)
         if len(names)>0:
             if relation and len(relation)>0:
+                # names = resolve_relation(names, relation)
                 names = resolve_relation(names, relation)
-            print('### Answer:', names)
+            # print('### Answer:', names)
+            return names
         else:
-            print('### Answer was not found')
+            # print('### Answer was not found')
+            return None
     else:
-        print('### Format not recognized')
-    print()
+        # print('### Format not recognized')
+        return None
+    # print()
 
 
-if __name__ == '__main__':
-    print(relation_regex)
-    process_question("Who is arya's father?")
-    process_question("Who is the three eyed raven?")
-    process_question("Who is the Mother of dragons?")
-    process_question("Who is Peter Dinklage?")
-    process_question("Who is Peter Dinklage's grandfather?")
-    process_question("Who is the daughter of Lady Catelyn and Lord Eddard Stark?")
-    process_question("Who is the daughter of Lady Catelyn?")
+# if __name__ == '__main__':
+#     print(relation_regex)
+#     process_question("Who is arya's father?")
+#     process_question("Who is the three eyed raven?")
+#     process_question("Who is the Mother of dragons?")
+#     process_question("Who is Peter Dinklage?")
+#     process_question("Who is Peter Dinklage's grandfather?")
+#     process_question("Who is the daughter of Lady Catelyn and Lord Eddard Stark?")
+#     process_question("Who is the daughter of Lady Catelyn?")
