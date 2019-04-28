@@ -8,9 +8,15 @@ def process_question(q):
     q=q.lower()
     form=r'(who )?(is )?(?P<character>.*)(oldest|youngest)?(living|dead|alive)? +(?P<relation>'+relation_regex+r') *\??$'
     match=re.match(form, q)
+    #print("0",match)
+    if not match:
+        form=r'(who )?(is )?(the )?(oldest|youngest)?(living|dead|alive)? *(?P<relation>'+relation_regex+r') *of (?P<character>.*)\??$'
+        match=re.match(form, q)
+        #print("1",match)
     if not match:
         form=r'(who )?(is )?(?P<character>.*)(?P<relation>)?\??$'
         match=re.match(form, q)
+        #print("2",match)
     if match:
         #print(match)
         char=match.group('character')
@@ -35,3 +41,5 @@ if __name__ == '__main__':
     process_question("Who is the Mother of dragons?")
     process_question("Who is Peter Dinklage?")
     process_question("Who is Peter Dinklage's grandfather?")
+    process_question("Who is the daughter of Lady Catelyn and Lord Eddard Stark?")
+    process_question("Who is the daughter of Lady Catelyn?")
