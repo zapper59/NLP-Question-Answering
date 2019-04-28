@@ -7,7 +7,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("preds", help="path to predictions json file")
 args = parser.parse_args()
 
-:
 ### Get answer
 with open(args.preds, 'r') as f:
     preds = json.load(f)
